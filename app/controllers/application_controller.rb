@@ -12,7 +12,9 @@ class App < Sinatra::Base
   post "/teams" do 
     @name = params[:name]
     @team = params[:team]
-    
+    @member1_name = params[:member1_name]
+    @member1_power
+    @member1_bio
     
   end 
   
