@@ -12,7 +12,7 @@ class App < Sinatra::Base
   post "/teams" do 
     @name = params[:team][:name]
     @team = params[:team][:motto]
-  
+    
     
   end 
   
